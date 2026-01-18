@@ -21,7 +21,7 @@ export default function Hero() {
         Hans Mann
       </h1>
       <p className="text-lg md:text-xl text-earth-straw/90 font-medium">
-        Punjabi Fusion Music
+        Music Producer
       </p>
     </div>
   );

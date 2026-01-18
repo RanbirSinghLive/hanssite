@@ -35,4 +35,11 @@ export const links: Link[] = [
     icon: 'Instagram',
     color: '#E4405F',
   },
+  {
+    id: 'tiktok',
+    name: 'TikTok',
+    url: 'https://www.tiktok.com/@itspapahans?_r=1&_t=ZS-93AAn8QWKKA',
+    icon: 'Video',
+    color: '#FE2C55',
+  },
 ];

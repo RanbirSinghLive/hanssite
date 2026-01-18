@@ -1,7 +1,7 @@
 'use client';
 
 import { Link } from '@/lib/links';
-import { Music, Music2, Youtube, Instagram } from 'lucide-react';
+import { Music, Music2, Youtube, Instagram, Video } from 'lucide-react';
 import { useMemo } from 'react';
 
 interface LinkButtonProps {
@@ -13,6 +13,7 @@ const iconMap: Record<string, typeof Music> = {
   Youtube: Youtube,
   Instagram: Instagram,
   Music2: Music2,
+  Video: Video,
 };
 
 export default function LinkButton({ link }: LinkButtonProps) {
